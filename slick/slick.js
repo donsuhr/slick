@@ -1968,7 +1968,8 @@
                 });
             }
         } else {
-            _.$list.height(_.$slides.first().outerHeight(true) * _.options.slidesToShow);
+            //_.$list.height(_.$slides.first().outerHeight(true) * _.options.slidesToShow);
+            _.$list.height('100%');
             if (_.options.centerMode === true) {
                 _.$list.css({
                     padding: (_.options.centerPadding + ' 0px')
